@@ -1,12 +1,9 @@
-from was_run import WasRun
-from was_run_parent_class import WasRunParentClass
+from test_production_test_case import TestProductionTestCase
 
 
 def go():
-    test = WasRunParentClass()
+    test = TestProductionTestCase()
     test.testRunning()
-
-
 
 
 
